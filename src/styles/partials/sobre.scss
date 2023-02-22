@@ -1,0 +1,46 @@
+.sobre {
+    background-color: $font-black;
+    z-index: 0;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+padding: 80px;
+border-bottom: 2px solid #272727;
+min-height: 90vh;
+text-transform: uppercase;
+
+    .sobre-foto{
+
+        width: 500px;
+
+
+        img{
+            width: 66%;
+        }
+    }
+
+
+
+    .sobre-descricao {
+        color: $text-color ;
+
+        line-height: 1.5rem;
+        width: 70%;
+
+        h1{
+
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-transform: none;
+            font-family:  'Quando', serif;
+        }
+
+      }
+  }
