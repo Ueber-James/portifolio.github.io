@@ -8,6 +8,9 @@ const uglify = require("gulp-uglify");
 const buffer = require("vinyl-buffer");
 const ghPages = require('gulp-gh-pages');
 const connect = require("gulp-connect");
+const ghpage = require('gh-pages');
+
+ghpage.publish('dist', function(err) {});
 
 const paths = {
     html: {

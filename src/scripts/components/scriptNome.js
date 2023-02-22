@@ -1,6 +1,6 @@
 export default function initTyping() {
     let letter = 0;
-    const text = 'Ueber James';
+    const text = 'daniel torres';
 
     function typeWriter() {
         if(letter < text.length) {
@@ -11,5 +11,5 @@ export default function initTyping() {
     }
 
     typeWriter();
-    
+
 }
