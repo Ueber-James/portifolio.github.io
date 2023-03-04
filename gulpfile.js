@@ -26,9 +26,11 @@ const paths = {
     },
     img: {
         all: "src/assents/**/*.png",
+        all: "src/assents/**/*.gif"
     },
     svg: {
         all: "src/assents/**/*.svg",
+
     },
 
     output: "dist",
