@@ -14,67 +14,7 @@
         color: $text-color;
     }
 
-    // .container-item-list {
 
-    //     margin-top: 50px;
-    //     max-width: 1000px;
-    //     display: flex;
-    //     width: 100%;
-
-
-
-    //     .project {
-    //         display: flex;
-    //         justify-content: space-between;
-
-    //         margin-top: 80px;
-    //         text-transform: uppercase;
-
-    //         .project-name {
-
-    //             padding-left: 80px;
-
-    //             h3 {
-    //                 color: white;
-    //                 padding-left: 94px;
-    //             }
-
-    //             p {
-    //                 text-align: center;
-    //                 text-transform: none;
-    //                 padding-top: 80px;
-    //                 color: white;
-
-
-    //             }
-
-    //             .button {
-    //                 margin: 60px 0 0 37px;
-    //                 border-radius: 8px;
-    //                 border: 1px solid aqua;
-    //                 background-color: $font-black;
-    //                 padding: 5px 0;
-    //                 width: 200px;
-
-
-    //                 a {
-    //                     color: $text;
-    //                     font-size: 18px;
-    //                 }
-
-    //             }
-    //         }
-
-    //     }
-
-    //     img {
-    //         width: 500px;
-    //         height: 250px;
-    //         padding-right: 20px;
-    //     }
-
-
-    // }
 }
 
 
@@ -86,6 +26,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-bottom: 2px solid #272727;
 }
 .row {
     margin-top: 20px;
