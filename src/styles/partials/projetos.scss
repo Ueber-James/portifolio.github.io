@@ -167,3 +167,41 @@
     background: #06c3dd;
     border-color: #06c3dd;
 }
+
+
+
+  #mostrar-mais,
+#mostrar-menos {
+    margin-top: 15px;
+  display: block;
+//   margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#mostrar-mais:hover,
+#mostrar-menos:hover {
+  background-color: #0069d9;
+}
+
+.hidden {
+    display: none;
+  }
+
+  #mostrar-menos {
+    display: none;
+  }
+
+
+
+
+
+
+
+
